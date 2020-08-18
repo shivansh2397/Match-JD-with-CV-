@@ -35,8 +35,8 @@ def train_model(train_data):
 
             print(losses)
 
-#rain_model(train_data)
-#lp.to_disk('nlp_model')
+#train_model(train_data)
+#nlp.to_disk('nlp_model')
 nlp_model = spacy.load('nlp_model')
 doc = nlp_model(train_data[0][0])
 for ent in doc.ents:
