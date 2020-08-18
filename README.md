@@ -1,1 +1,1 @@
-# resume-parser
+# information extraction using nlp
